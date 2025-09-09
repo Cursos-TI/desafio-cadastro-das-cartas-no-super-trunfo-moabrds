@@ -22,6 +22,7 @@ int main (){
     // Exibição das Cartas
     printf("Dados da Carta 1 \n");
     printf("Estado: %s \n", Estado1);
+    scanf("%s", &Estado1);
     printf("Codigo da carta: %s \n", CodigoCarta1);
     printf("Cidade: %s \n", Cidade1);
     printf("Populacao: %d \n", Populacao1);
